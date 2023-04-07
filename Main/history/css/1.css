@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+
+body {
+    font-family: 'Jua', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E6B8AF;
+    padding: 8px 12px;
+}
+
+.site_name {
+    font-size: 24px;
+    color: #E6B8AF;
+}
+
+.site_name i {
+    color: white;
+}
+
+.navbar_menu {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+
+    font-size: 1.5rem;
+}
+
+.navbar_menu li {
+    padding: 8px 12px;
+    margin: 5px;
+}
+
+.navbar_menu li:hover {
+    background-color: #ea806b;
+    border-radius: 5px;
+    color: white;
+}
+
+.nav_login {
+    list-style-type: none;
+    display: flex;
+    color: white;
+
+    font-size: 1.3rem;
+}
+
+.nav_login li {
+    padding: 8px 12px;
+}
+
+.nav_login li:hover {
+    background-color: #E6B8AF;
+    border-radius: 5px;
+    color: white;
+}
+
+/* .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+  } */
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+
+    font-size: 2rem;
+    padding: 3rem;
+    border-radius: 1rem;
+
+    color: #dcdbdb;
+}
+
+.adr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 5px;
+
+    width: 300px;
+    height: 35px;
+
+    caret-color: #c3c3c3;
+    border-radius: 5px;
+
+    color: #c3c3c3;
+}
+
+.adr:focus {
+    outline: none;
+}
+
+.adr[type=text] {
+    border: 0.5px solid #dcdbdb;
+}
+
+.adr::placeholder {
+    opacity: 0.8;
+    color: #dcdbdb;
+    font-size: 0.8rem;
+}
+
+.start {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+
+    font-size: 1.3rem;
+    padding: 8px 12px;
+
+    background-color: #E6B8AF;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.start:hover {
+    background-color: #E6B8AF;
+    border-radius: 5px;
+    color: white;
+}
+
+.footer i {
+    color: #dcdbdb;
+    font-size: 1.5rem;
+    float: right;
+    margin: 10px;
+}
